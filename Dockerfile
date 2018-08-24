@@ -44,7 +44,7 @@ RUN { \
                 echo 'date.timezone=UTC'; \
     } > /usr/local/etc/php/conf.d/php.ini
 	
-EXPOSE 80 2222
+EXPOSE 8080 2222
 
 ENV PORT 80
 ENV APACHE_RUN_USER www-data
