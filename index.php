@@ -1,5 +1,5 @@
 <?php
 
-  phpinfo();
+  echo 'Env variable: ' .$_ENV["BESTFISH"]
 
 ?>
