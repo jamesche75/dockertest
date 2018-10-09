@@ -11,3 +11,4 @@ touch /var/log/apache2/access_$WEBSITE_ROLE_INSTANCE_ID.log
 echo "$(date) Container started" >> /var/log/apache2/access_$WEBSITE_ROLE_INSTANCE_ID.log
 /usr/sbin/apache2ctl -D FOREGROUND
 echo "Done"
+chmod 755 /home
